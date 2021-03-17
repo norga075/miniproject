@@ -1,0 +1,150 @@
+.book {
+	margin: 30px;
+	width: 400px;
+	height: 600px;
+	background: #fcfadd;
+	position: relative;
+	overflow: hidden;
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+.title {
+	font-family: 'Helvetica';
+	font-size: 4em;
+	font-weight: bold;
+	color: #fcfadd;
+	letter-spacing: 0.3px;
+	word-spacing: 120px;
+	margin-left: 30px;
+	margin-top: 30px;
+	position: relative;	
+}
+
+.title:hover {
+	color: #ee3125;
+	transition: 0.5s;
+}
+
+.subtitle {
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	font-size: 7pt;
+	color: #fcfadd;
+	margin-left: 125px;
+	z-index: 100;
+	position: relative;
+}
+
+.subtitle:hover {
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+.circleone {
+	width: 390px;
+	height: 390px;
+	background: #62b192;
+	border-radius: 100%;
+	margin-top: -345px;
+	margin-left: -40px;
+}
+
+.circletwo {
+	width: 330px;
+	height: 330px;
+	background: #ee3125;
+	border-radius: 100%;
+	margin-top: -90px;
+	margin-left: -220px;
+	opacity: 80%;
+}
+
+.circlethree {
+	width: 110px;
+	height: 110px;
+	background: #62b192;
+	border-radius: 100%;
+	margin-top: -615px;
+	margin-left: 285px;
+	position: relative;
+	opacity: 80%;
+	animation: circlethree_bounce 3s infinite ease;
+}
+
+@keyframes circlethree_bounce {
+	0% {top: 0px; left: 0px;}
+	50% {top: 480px;}
+	100% {top: 0px;}
+}
+
+
+.circlefour {
+	width: 275px;
+	height: 275px;
+	border-radius: 100%;
+	position: relative;
+	background: #ee3125;
+	margin-top: 75px;
+	margin-left: 120px;
+	opacity: 80%;
+	animation: circlefour_turn 3s infinite ease;
+}
+
+@keyframes circlefour_turn {
+	0% {top: 25px;}
+	50% {top: 135px;}
+	100% {top: 25px;}
+}
+
+.circlefive {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: #62b192;
+	margin-left: -15px;
+	margin-top: 12.5px;
+	position: relative;
+	animation: circlefive_bounce 3s infinite ease;
+}
+
+@keyframes circlefive_bounce {
+	0% {top: 22px; left: 125px; opacity: 100%;}
+	50% {top: -100px; left: 125px; opacity: 80%;}
+	100% {top: 22px; left: 125px; opacity: 100%;}
+}
+
+.circlesix {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: #ee3125;
+	margin-left: 200px;
+	margin-top: 21.5px;
+	opacity: 80%;
+	position: relative;
+	animation: circlesix_bounce 3s infinite ease;
+}
+
+@keyframes circlesix_bounce {
+	0% {top: -150px; left: 0px;}
+	50% {top: -600px; left: 0px;}
+	100% {top: -150px; left: 0px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
